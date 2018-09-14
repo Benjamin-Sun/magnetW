@@ -153,6 +153,12 @@
     <div id="page-component-up" style="" @click="scrollTop" v-show="showTopButton"><i
             class="el-icon-caret-top"></i></div>
 </div>
+
+<!--统计代码-->
+<div style="display:none">
+    <script src="https://s22.cnzz.com/z_stat.php?id=1273076204&web_id=1273076204"
+            language="JavaScript"></script>
+</div>
 </body>
 
 <script>
