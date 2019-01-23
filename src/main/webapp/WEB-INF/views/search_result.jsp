@@ -33,7 +33,15 @@
     <el-container>
         <el-header style="height: 30px">
             <div style="text-align: right">
-                <span style="float: left">当前版本：v1.1.8</span>
+                <a style="float: left" href="https://github.com/dengyuhan/magnetW/releases" target="_blank">当前版本：v1.1.8</a>
+
+                <a href="https://github.com/dengyuhan/magnetW/issues/new"
+                   target="_blank">提交网站</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a @click="openDisclaimerDialog" href="javascript:;">免责声明</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://github.com/dengyuhan/magnetW"
+                   target="_blank">Star一下 不迷路<i id="header-github" class="am-icon-github am-icon-sm"></i></a>
             </div>
         </el-header>
         <el-main>
